@@ -1,0 +1,9 @@
+transformers 
+datasets 
+scikit-learn 
+pandas 
+numpy == 1.26.4
+torch 
+matplotlib
+seaborn
+memory_profiler

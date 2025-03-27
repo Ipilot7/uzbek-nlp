@@ -1,0 +1,6 @@
+venv/
+results/
+model/emotion_classifier_tokenizer/
+model/emotion_classifier_model/
+confusion_matrix.png
+memory_usage.log
