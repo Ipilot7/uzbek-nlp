@@ -8,11 +8,15 @@ class Config:
     LOGGING_DIR = "./logs"
     MODEL_SAVE_PATH = "model/emotion_classifier_model"
     TOKENIZER_SAVE_PATH = "model/emotion_classifier_tokenizer"
-    
+
     # Training arguments
-    EPOCHS = 3
+    EPOCHS = 4
     TRAIN_BATCH_SIZE = 16
     EVAL_BATCH_SIZE = 64
-    WARMUP_STEPS = 500
-    WEIGHT_DECAY = 0.01
-    LOGGING_STEPS = 10
+    WARMUP_STEPS = 300
+    WEIGHT_DECAY = 0.005
+    LOGGING_STEPS = 20
+    LEARNING_RATE = 2e-5
+    GRADIENT_ACCUMULATION_STEPS = 2
+    LR_SCHEDULER_TYPE = "cosine"
+    EARLY_STOPPING_PATIENCE = 2

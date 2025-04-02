@@ -20,19 +20,24 @@ class CustomTrainer(Trainer, MemoryTracker):
 class TrainerSetup:
     @staticmethod
     def get_training_args():
+        cfg = Config()
         return TrainingArguments(
-            output_dir=Config.OUTPUT_DIR,
-            num_train_epochs=Config.EPOCHS,
-            per_device_train_batch_size=Config.TRAIN_BATCH_SIZE,
-            per_device_eval_batch_size=Config.EVAL_BATCH_SIZE,
-            warmup_steps=Config.WARMUP_STEPS,
-            weight_decay=Config.WEIGHT_DECAY,
-            logging_dir=Config.LOGGING_DIR,
-            logging_steps=Config.LOGGING_STEPS,
+            output_dir=cfg.OUTPUT_DIR,
+            num_train_epochs=cfg.EPOCHS,
+            per_device_train_batch_size=cfg.TRAIN_BATCH_SIZE,
+            per_device_eval_batch_size=cfg.EVAL_BATCH_SIZE,
+            warmup_steps=cfg.WARMUP_STEPS,
+            weight_decay=cfg.WEIGHT_DECAY,
+            learning_rate=cfg.LEARNING_RATE,
+            logging_dir=cfg.LOGGING_DIR,
+            logging_steps=cfg.LOGGING_STEPS,
             evaluation_strategy="epoch",
             save_strategy="epoch",
             load_best_model_at_end=True,
-            report_to="none",
+            metric_for_best_model="f1",
+            gradient_accumulation_steps=cfg.GRADIENT_ACCUMULATION_STEPS,
+            lr_scheduler_type=cfg.LR_SCHEDULER_TYPE,
+            disable_tqdm=False
         )
     
     def create_trainer(self, model, train_dataset, val_dataset, compute_metrics):
