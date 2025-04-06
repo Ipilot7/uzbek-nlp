@@ -9,8 +9,9 @@ import os
 logging.basicConfig(filename='translate_errors.log', level=logging.ERROR, format='%(asctime)s - %(message)s')
 
 # Файл исходный и файл для сохранения
-file_path = "train.csv"
-output_path = "ru_translated.csv"
+file_path = "validation.csv"
+output_path = "ru_validation.csv"
+output_path = "ru_validation.csv"
 
 # Загрузка файла (если перезапуск — берем сохранённый)
 if os.path.exists(output_path):
