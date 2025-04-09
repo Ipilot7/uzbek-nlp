@@ -29,7 +29,7 @@ class TrainerSetup:
             weight_decay=Config.WEIGHT_DECAY,
             logging_dir=Config.LOGGING_DIR,
             logging_steps=Config.LOGGING_STEPS,
-            evaluation_strategy="epoch",
+            eval_strategy="epoch",
             save_strategy="epoch",
             load_best_model_at_end=True,
             report_to="none",

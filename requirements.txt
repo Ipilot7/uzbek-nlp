@@ -2,8 +2,9 @@ transformers
 datasets 
 scikit-learn 
 pandas 
-numpy == 1.26.4
+numpy
 torch 
 matplotlib
 seaborn
 memory_profiler
+accelerate==0.26.0
