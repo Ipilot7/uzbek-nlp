@@ -2,9 +2,12 @@ transformers
 datasets 
 scikit-learn 
 pandas 
-numpy
+numpy==1.26.0
 torch 
 matplotlib
 seaborn
 memory_profiler
 accelerate==0.26.0
+fastapi
+pydantic
+uvicorn
