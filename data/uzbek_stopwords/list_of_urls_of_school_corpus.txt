@@ -1,0 +1,50 @@
+﻿List of files of the Scholl corpus:
+
+
+    1. 1-sinf, o’qish kitobir(Reading book for the 1st class) https://kitob.uz/book/694/reader
+    2. 1-sinf, ona tili,darslik (Mother tongue ,textbook for the 1st class)
+https://kitob.uz/book/3087/reader 
+    3. 2-sinf, o’qish kitobi(Reading book for the 2nd  class) https://kitob.uz/book/332/reader
+    4. 2-sinf,ona tili, darslik(Mother tongue, textbook for the 2nd  class)
+https://kitob.uz/book/3049/reader
+    5. 3-sinf, o’qish kitobi(Reading book for the 3rd class) https://kitob.uz/book/3049/reader
+    6. 3-sinf, ona tili,darslik( Mother tongue, textbook for the 3rd  class)
+https://kitob.uz/book/2201/reader
+    7. 4-sinf, o’qish kitobi(Reading book for the 4th class).
+https://kitob.uz/book/1617/reader
+    8. 4-sinf, ona tili,darslik( Mother tongue, textbook for the 3rd  class)
+https://kitob.uz/book/1682/reader 
+    9. 5-sinf, ona tili (Mother tongue textbook for the 5th class)
+https://kitob.uz/book/1683/reader
+    10. 5-sinf, adabiyot, darslik(Textbook for the 5th class)
+https://kitob.uz/book/739/reader
+    11. 6-sinf, ona tili (Mother tongue textbook for the 6th class)
+https://kitob.uz/book/315/reader
+    12. 6-sinf, adabiyot, darslik(Textbook for the 6th class, chapter 1)
+https://kitob.uz/book/735/reader
+    13. 6-sinf, adabiyot, darslik(Textbook for the 6th class, chapter 2)
+https://kitob.uz/book/736/reader
+    14. 7-sinf, ona tili (Mother tongue textbook for the 7th class)
+https://kitob.uz/book/1786/reader
+    15. 7-sinf, adabiyot, darslik(Textbook for the 7th class)
+https://kitob.uz/book/263/reader
+    16. 8-sinf, ona tili (Mother tongue textbook for the 8th class)
+https://kitob.uz/book/1787/reader
+    17. 8-sinf, adabiyot, darslik(Textbook for the 8th class)
+https://kitob.uz/book/296/reader
+    18. 9-sinf, ona tili (Mother tongue textbook for the 9th class)
+https://kitob.uz/book/208/reader
+    19. 9-sinf, adabiyot, darslik(Textbook for the 9th class)
+https://kitob.uz/book/789/reader
+    20. 10-sinf, ona tili (Mother tongue textbook for the 10th class)
+https://kitob.uz/book/853/reader
+    21. 10-sinf, adabiyot, darslik(Textbook for the10th class, chapter 1)
+https://kitob.uz/book/827/reader
+    22. 10-sinf, adabiyot, darslik(Textbook for the 10th class, chapter 2)
+https://kitob.uz/book/826/reader
+    23. 11-sinf, ona tili (Mother tongue textbook for the 11th class)
+https://kitob.uz/book/194/reader
+    24. 11-sinf, adabiyot, darslik(Textbook for the 11th class, chapter 1)
+https://kitob.uz/book/198/reader 
+    25. 11-sinf, adabiyot, darslik(Textbook for the 11th class, chapter 2)
+https://kitob.uz/book/199/reader
